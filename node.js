@@ -8,7 +8,7 @@ const app = express();
 const port = 5500;
 
 // Serve static files from public directory
-app.use(express.static('main'));
+app.use(express.static('/root'));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // MySQL connection
